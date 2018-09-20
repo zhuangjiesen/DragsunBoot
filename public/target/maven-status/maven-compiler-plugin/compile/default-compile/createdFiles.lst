@@ -1,0 +1,5 @@
+com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry$Notifier.class
+com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistryFactory.class
+com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry$1.class
+com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry.class
+com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry$NotifySub.class
