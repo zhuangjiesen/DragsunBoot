@@ -12,6 +12,7 @@
     <module>consumer</module>
     <module>provider</module>
     <module>public</module>
+      <module>provider1</module>
   </modules>
 
   <parent>

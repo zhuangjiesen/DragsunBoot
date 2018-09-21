@@ -1,2 +1,6 @@
-/Users/zhuangjiesen/develop/DragsunBoot/public/src/main/java/com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistryFactory.java
-/Users/zhuangjiesen/develop/DragsunBoot/public/src/main/java/com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry.java
+/Users/zhuangjiesen/develop/my_github/DragsunBoot/public/src/main/java/com/dragsun/core/rpc/dubbo/config/DubboConfig.java
+/Users/zhuangjiesen/develop/my_github/DragsunBoot/public/src/main/java/com/dragsun/core/spring/CommonBeanPostProcessor.java
+/Users/zhuangjiesen/develop/my_github/DragsunBoot/public/src/main/java/com/dragsun/core/spring/ApplicationHolder.java
+/Users/zhuangjiesen/develop/my_github/DragsunBoot/public/src/main/java/com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry.java
+/Users/zhuangjiesen/develop/my_github/DragsunBoot/public/src/main/java/com/dragsun/core/redis/RedisChannelConfig.java
+/Users/zhuangjiesen/develop/my_github/DragsunBoot/public/src/main/java/com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistryFactory.java

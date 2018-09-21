@@ -1,5 +1,6 @@
 package com.dragsun.dubbo;
 
+import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.dragsun.ConsumerApplicationTests;
 import com.dragsun.service.TestService;
@@ -7,6 +8,7 @@ import com.dragsun.service.dubbo.IHelloDubboService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 
 
 /**
@@ -20,10 +22,10 @@ public class DubboServiceTest extends ConsumerApplicationTests {
 
     @Reference(version = "1.0.0",
             application = "${dubbo.application.id}",
-            registry = "${dragsun-customer-redis-registry}"
+            loadbalance = "random",
+            registry = "${dubbo.registry.id}"
     )
     private IHelloDubboService ihelloDubboService;
-
 
     @Test
     public void testHello() {

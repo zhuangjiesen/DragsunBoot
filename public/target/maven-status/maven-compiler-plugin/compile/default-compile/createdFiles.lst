@@ -1,5 +1,11 @@
+com/dragsun/core/rpc/dubbo/config/DubboConfig.class
 com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry$Notifier.class
+com/dragsun/core/spring/CommonBeanPostProcessor.class
+com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry$NotifyMessageListener.class
+com/dragsun/core/redis/RedisChannelConfig.class
 com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistryFactory.class
+com/dragsun/core/redis/RedisChannelConfig$2.class
+com/dragsun/core/redis/RedisChannelConfig$1.class
+com/dragsun/core/spring/ApplicationHolder.class
 com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry$1.class
 com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry.class
-com/dragsun/core/rpc/dubbo/registry/CustomerRedisRegistry$NotifySub.class

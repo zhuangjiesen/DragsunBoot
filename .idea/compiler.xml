@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="consumer" />
         <module name="provider" />
+        <module name="provider1" />
         <module name="public" />
       </profile>
     </annotationProcessing>
@@ -31,6 +32,7 @@
       <module name="consumer" target="1.8" />
       <module name="DragsunBoot" target="1.8" />
       <module name="provider" target="1.8" />
+      <module name="provider1" target="1.8" />
       <module name="public" target="1.8" />
     </bytecodeTargetLevel>
   </component>

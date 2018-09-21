@@ -21,6 +21,6 @@ public class HelloDubboService implements IHelloDubboService {
     @Override
     public String sayHello(String name) {
         log.debug(String.format(" name : %s " , name));
-        return "哈哈哈哈_" + System.currentTimeMillis();
+        return "哈哈哈哈_provider_" + System.currentTimeMillis();
     }
 }
