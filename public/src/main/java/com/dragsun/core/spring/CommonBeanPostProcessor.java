@@ -26,7 +26,7 @@ public class CommonBeanPostProcessor implements BeanPostProcessor {
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-        log.info(String.format("CommonBeanPostProcessor beanName : %s , bean : %s " , beanName , bean.getClass().getName()));
+//        log.info(String.format("CommonBeanPostProcessor beanName : %s , bean : %s " , beanName , bean.getClass().getName()));
         return bean;
     }
 }
